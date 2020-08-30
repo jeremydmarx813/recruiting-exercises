@@ -10,3 +10,18 @@ You will need to write a tracking code processor, which will given a large set o
 2. (optional, recommend) Install VSCode
 3. Install dependencies: `npm i`
 4. Run tests: `npm test`
+
+jest params for package.json file
+ <!-- "jest": {
+    "automock": false,
+    "mapCoverage": true,
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|src.*?\\.(ispec|uspec))\\.(ts)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
+  }, -->
