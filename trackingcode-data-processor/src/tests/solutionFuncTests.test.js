@@ -1,5 +1,5 @@
 const solutionFunc = require('../solutionFunc');
 
-test('returns 3', () => {
-    expect(solutionFunc()).toBe(3);
+test('returns an array', () => {
+    expect(solutionFunc()).toBe([]);
   });

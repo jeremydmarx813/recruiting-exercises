@@ -1,5 +1,5 @@
 const solutionFunc = (shipments, inventory) => {
-  return 3
+  return []
 }
 
 module.exports = solutionFunc
